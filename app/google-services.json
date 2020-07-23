@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "758851242164",
+    "firebase_url": "https://bpmapp-c6ffe.firebaseio.com",
+    "project_id": "bpmapp-c6ffe",
+    "storage_bucket": "bpmapp-c6ffe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758851242164:android:6b8fd8cff268bda196afe1",
+        "android_client_info": {
+          "package_name": "com.example.bpmapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758851242164-o9biub2vdqmrho7ja5bcv2pu68v409av.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bpmapp",
+            "certificate_hash": "0d7548a00856e43d9e3f85af514747010522a390"
+          }
+        },
+        {
+          "client_id": "758851242164-ll9a3iq46f7dg6feh5gti2c486bg21qe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqobTtC0jF2oXcCIhEku83gM3gQxeJx6g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758851242164-ll9a3iq46f7dg6feh5gti2c486bg21qe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

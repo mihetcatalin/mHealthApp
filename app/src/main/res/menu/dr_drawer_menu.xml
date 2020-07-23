@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="General">
+        <menu>
+            <item
+                android:id="@+id/heart"
+                android:icon="@drawable/ic_favorite_black_24dp"
+                android:title="HEART" />
+            <item
+                android:id="@+id/chat"
+                android:icon="@drawable/ic_chat_black_24dp"
+                android:title="CHAT" />
+            <item
+                android:id="@+id/fall"
+                android:icon="@drawable/ic_fall"
+                android:title="FALL" />
+        </menu>
+    </item>
+
+    <item android:title="">
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings"
+            android:title="SETTINGS"/>
+
+        <item
+            android:title="LOGOUT"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:id="@+id/logout"/>
+    </item>
+
+</menu>

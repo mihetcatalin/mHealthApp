@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">bpmApp</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="text">\tThis app determines when you should wake up based on the sleep cycle.\n\n
+        \tOne cycle consists of 90 minutes.\n\n
+        \tOn average, it takes a person 15 minutes to fall asleep.\n\n
+        \tFor a good night sleep it is recommended to have 5 or 6 cycles.\n\n
+        \tThis calculator presents the wake-up hours if you go to sleep now.
+
+    </string>
+</resources>

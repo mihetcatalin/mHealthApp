@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pressure">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/pressure_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/user_input"
+        android:background="#FFFFFF">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/user_input"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/value_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:textSize="20dp"
+            android:text="Insert Blood Pressure Values"
+            android:paddingLeft="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/systolic_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Systolic"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/values_separator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="35dp"
+                android:text="/"
+                android:paddingLeft="10dp"/>
+            <EditText
+                android:id="@+id/diastolic_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Diastolic"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/post_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Post"/>
+            <Space
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/generate_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="PDF"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
